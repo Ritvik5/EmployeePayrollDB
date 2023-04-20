@@ -20,3 +20,5 @@ insert into EmployeePayroll values
 ('John',35000,'2019-08-19'),
 ('Snow',45000,'2018-09-20');
 
+
+select * from EmployeePayroll;
