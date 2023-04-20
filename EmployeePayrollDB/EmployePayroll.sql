@@ -22,3 +22,8 @@ insert into EmployeePayroll values
 
 
 select * from EmployeePayroll;
+
+
+
+select Salary from EmployeePayroll where Name = 'Jack';
+select * from EmployeePayroll where StartDate between '2019-01-01' and getdate();
