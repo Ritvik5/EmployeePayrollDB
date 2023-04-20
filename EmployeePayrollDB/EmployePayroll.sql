@@ -27,3 +27,8 @@ select * from EmployeePayroll;
 
 select Salary from EmployeePayroll where Name = 'Jack';
 select * from EmployeePayroll where StartDate between '2019-01-01' and getdate();
+
+
+alter table EmployeePayroll add Gender char(1);
+update EmployeePayroll set Gender = 'M' where Name = 'Jack' or Name = 'Smith' or Name = 'John';
+update EmployeePayroll set Gender = 'F' where Name = 'Snow';
