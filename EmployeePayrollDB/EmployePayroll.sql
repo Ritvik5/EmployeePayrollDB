@@ -65,7 +65,10 @@ select Count(Salary) as NumberOfFemaleSalary from EmployeePayroll where Gender =
 select Count(Salary) as TotalCountOfSalaryEmployee from EmployeePayroll ;
 
 
-
+alter table EmployeePayroll add 
+EmpPhoneNumber varchar(15),
+EmpAddress varchar(300) not null Default 'India',
+EmpDepartment varchar(100) not null Default 'CS';
 
 
 
